@@ -5062,8 +5062,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .portfolio-columns-fw .portfolio-item, .portfolio-columns-boxed .portfolio-item {
-  padding-left: 0;
-  padding-right: 0;
+  padding: 15px;
 }
 
 .portfolio-columns-fw .portfolio-item figure, .portfolio-columns-boxed .portfolio-item figure {
@@ -7914,7 +7913,7 @@ form .input-error-2:focus {
 }
 
 .fs-slide-1 {
-  background: url(http://placehold.it/2440x1578);
+  background: url('../images/hero/slider1.jpg');
   background-size: cover;
 }
 
@@ -7941,7 +7940,7 @@ form .input-error-2:focus {
 }
 
 .fs-slide-2 {
-  background: url(http://placehold.it/2440x1578);
+  background: url('../images/hero/slider2.jpg');
   background-size: cover;
 }
 

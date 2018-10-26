@@ -469,8 +469,8 @@
 			fade: true,
 			dots: false,
 			arrows: true,
-			prevArrow: '<button type="button" class="slick-prev"><span class="linea-arrows-slim-left"></span></button>',
-			nextArrow: '<button type="button" class="slick-next"><span class="linea-arrows-slim-right"></span></button>',
+			prevArrow: '<button type="button" class="slick-prev"><span class="linea-arrows-left"></span></button>',
+			nextArrow: '<button type="button" class="slick-next"><span class="linea-arrows-right"></span></button>',
 			autoplay: true,
 			autoplaySpeed: 4000,
 		});
@@ -615,13 +615,290 @@
 
 		if (hasPopup) {
 
-			$('.open-gallery').magnificPopup({
-				type:'image',
-				gallery: {
-				    enabled: true
-				  }
-			});
-			
+			$('.g1').magnificPopup({
+                items: [
+                    {
+                        src: 'assets/images/portfolio/01/a.png',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/01/b.png',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/01/c.png',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/01/d.png',
+                        title: 'Title'
+                    }
+                ],
+                gallery: {
+                    enabled: true
+                },
+                type: 'image' // this is a default type
+            });
+
+            $('.g2').magnificPopup({
+                items: [
+                    {
+                        src: 'assets/images/portfolio/02/a.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/02/b.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/02/c.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/02/d.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/02/e.jpg',
+                        title: 'Title'
+                    }
+                ],
+                gallery: {
+                    enabled: true
+                },
+                type: 'image' // this is a default type
+            });
+
+            $('.g3').magnificPopup({
+                items: [
+                    {
+                        src: 'assets/images/portfolio/03/a.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/03/b.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/03/c.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/03/d.jpg',
+                        title: 'Title'
+                    }
+                ],
+                gallery: {
+                    enabled: true
+                },
+                type: 'image' // this is a default type
+            });
+
+            $('.g4').magnificPopup({
+                items: [
+                    {
+                        src: 'assets/images/portfolio/04/a.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/04/b.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/04/c.jpg',
+                        title: 'Title'
+                    }
+                ],
+                gallery: {
+                    enabled: true
+                },
+                type: 'image' // this is a default type
+            });
+
+            $('.g5').magnificPopup({
+                items: [
+                    {
+                        src: 'assets/images/portfolio/05/a.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/05/b.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/05/c.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/05/d.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/05/e.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/05/f.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/05/g.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/05/h.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/05/i.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/05/j.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/05/k.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/05/l.png',
+                        title: 'Title'
+                    }
+                ],
+                gallery: {
+                    enabled: true
+                },
+                type: 'image' // this is a default type
+            });
+
+            $('.g6').magnificPopup({
+                items: [
+                    {
+                        src: 'assets/images/portfolio/06/a.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/06/b.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/06/c.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/06/d.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/06/e.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/06/f.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/06/g.jpg',
+                        title: 'Title'
+                    }
+                ],
+                gallery: {
+                    enabled: true
+                },
+                type: 'image' // this is a default type
+            });
+
+            $('.g7').magnificPopup({
+                items: [
+                ],
+                gallery: {
+                    enabled: true
+                },
+                type: 'image' // this is a default type
+            });
+
+            $('.g8').magnificPopup({
+                items: [
+                    {
+                        src: 'assets/images/portfolio/08/a.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/08/b.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/08/c.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/08/d.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/08/e.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/08/f.jpg',
+                        title: 'Title'
+                    }
+                ],
+                gallery: {
+                    enabled: true
+                },
+                type: 'image' // this is a default type
+            });
+
+            $('.g9').magnificPopup({
+                items: [
+                    {
+                        src: 'assets/images/portfolio/09/a.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/09/b.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/09/c.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/09/d.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/09/e.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/09/f.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/09/g.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/09/h.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/09/i.jpg',
+                        title: 'Title'
+                    },
+                    {
+                        src: 'assets/images/portfolio/09/j.jpg',
+                        title: 'Title'
+                    }
+                ],
+                gallery: {
+                    enabled: true
+                },
+                type: 'image' // this is a default type
+            });
 		}
 
 
