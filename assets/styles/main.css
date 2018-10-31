@@ -3357,8 +3357,6 @@ fieldset[disabled] .form-control:hover {
 .ft-centered .ft-dark-spin:hover span,
 .ft-x .ft-dark-spin:hover span,
 .ft-y .ft-dark-spin:hover span, .ft-centered .ft-dark-spin:hover i, .ft-x .ft-dark-spin:hover i, .ft-y .ft-dark-spin:hover i {
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
   border: 1px solid #cccccc;
   background: #fff;
   color: #111;
@@ -10223,3 +10221,7 @@ form .input-error-2:focus {
 }
 
 /*# sourceMappingURL=main.css.map */
+.href-arrow{
+  font-size: 24px;
+  color: #777;
+}
