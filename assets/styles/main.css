@@ -1258,7 +1258,7 @@ body, .testimonials-3col .t-item blockquote, .testimonials-3col .t-item .wrapper
   font-weight: 300;
   letter-spacing: 0.2px;
   line-height: 1.8em;
-  color: #777;
+  color: #000;
 }
 
 h1,
@@ -1558,11 +1558,11 @@ input[class="btn-ghost"]:after {
 .btn-text, .btn-text-light {
   background: none;
   border: 2px solid rgba(17, 17, 17, 0);
-  color: #777;
+  color: #000;
 }
 
 .btn-text:visited, .btn-text-light:visited {
-  color: #777;
+  color: #000;
   background: none;
 }
 
@@ -1679,7 +1679,7 @@ input[class="btn-ghost-light"]:hover {
   width: 42px;
   line-height: 1.9em;
   font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
-  color: #777;
+  color: #000;
 }
 
 .pagination li a i {
@@ -1737,7 +1737,7 @@ input[class="btn-ghost-light"]:hover {
 .form-control:hover {
   outline: none;
   box-shadow: none;
-  border-color: #777;
+  border-color: #000;
 }
 
 input[type="file"] {
@@ -1947,11 +1947,11 @@ fieldset[disabled] .form-control:hover {
 }
 
 .breadcrumb li + li:before {
-  color: #777;
+  color: #000;
 }
 
 .breadcrumb .active {
-  color: #777;
+  color: #000;
 }
 
 /* ---- 4.2 Header/Page Title ---- */
@@ -1971,11 +1971,11 @@ fieldset[disabled] .form-control:hover {
   margin: 20px 0 0 0;
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 300;
-  color: #777;
+  color: #000;
 }
 
 .page-title .breadcrumb li a {
-  color: #777;
+  color: #000;
 }
 
 .page-title .breadcrumb li a:hover {
@@ -2004,7 +2004,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .pt-dark .breadcrumb .active {
-  color: #777;
+  color: #000;
 }
 
 /* ---- 4.4 Header/Page Title Sizes ---- */
@@ -2114,7 +2114,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .copyright .to-the-top {
-  color: #777;
+  color: #000;
 }
 
 .copyright .to-the-top i {
@@ -2194,7 +2194,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .footer-widgets .about-widget .social-links li a {
-  color: #777;
+  color: #000;
 }
 
 .footer-widgets .about-widget .social-links li a:hover {
@@ -2775,7 +2775,7 @@ fieldset[disabled] .form-control:hover {
   padding: 0;
   float: right;
   font-size: 16px;
-  color: #777;
+  color: #000;
   border: none;
   background: none;
 }
@@ -2799,7 +2799,7 @@ fieldset[disabled] .form-control:hover {
   float: right;
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 400;
-  color: #777;
+  color: #000;
 }
 
 .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns {
@@ -2944,7 +2944,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .navbar-inverse .navbar-nav li a {
-  color: #777;
+  color: #000;
 }
 
 .navbar-inverse .navbar-nav li a:hover {
@@ -3215,7 +3215,7 @@ navbar-trans-dark .navbar-nav > li > a:focus{
   display: inline-block;
   margin-top: 30px;
   float: right;
-  color: #777;
+  color: #000;
   -webkit-transform: translateX(30px);
       -ms-transform: translateX(30px);
           transform: translateX(30px);
@@ -3315,7 +3315,7 @@ navbar-trans-dark .navbar-nav > li > a:focus{
   border: 1px solid #f8f8f8;
   border-radius: 100px;
   background: #fff;
-  color: #777;
+  color: #000;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
   -webkit-transition: all 0.3s;
           transition: all 0.3s;
@@ -3439,7 +3439,7 @@ navbar-trans-dark .navbar-nav > li > a:focus{
   height: auto;
   line-height: 0;
   font-size: 64px;
-  color: #777;
+  color: #000;
   -webkit-transition: color 0.7s;
           transition: color 0.7s;
 }
@@ -3597,7 +3597,7 @@ navbar-trans-dark .navbar-nav > li > a:focus{
 
 .ft-boxed-hover ul li .ft-icon {
   font-size: 56px;
-  color: #777;
+  color: #000;
 }
 
 .ft-boxed-hover ul li .h-alt {
@@ -4562,7 +4562,7 @@ navbar-trans-dark .navbar-nav > li > a:focus{
 
 .testimonials-3col .t-item blockquote footer cite, .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite, .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite {
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
-  color: #777;
+  color: #000;
 }
 
 .testimonials-3col .t-item blockquote footer cite span, .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite span, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite span, .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite span, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite span {
@@ -5040,7 +5040,7 @@ navbar-trans-dark .navbar-nav > li > a:focus{
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
   font-size: .85em;
   letter-spacing: 2.5px;
-  color: #777;
+  color: #000;
 }
 
 .portfolio-filters li a:focus,
@@ -5902,7 +5902,7 @@ navbar-trans-dark .navbar-nav > li > a:focus{
 .pfolio-single .project-testimonial {
   padding: 30px;
   font-size: 1.2em;
-  color: #777;
+  color: #000;
   background: #f4f4f4;
 }
 
@@ -5910,11 +5910,11 @@ navbar-trans-dark .navbar-nav > li > a:focus{
   display: block;
   margin-bottom: 30px;
   font-size: 32px;
-  color: #777;
+  color: #000;
 }
 
 .pfolio-single .project-testimonial footer {
-  color: #777;
+  color: #000;
   line-height: 1.2;
 }
 
@@ -6266,7 +6266,7 @@ navbar-trans-dark .navbar-nav > li > a:focus{
   margin-bottom: 0;
   padding-bottom: 20px;
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
-  color: #777;
+  color: #000;
 }
 
 .pricing-tables .p-table .p-items {
@@ -6684,7 +6684,7 @@ navbar-trans-dark .navbar-nav > li > a:focus{
 .sidebar .recent-posts-widget .widget-item .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .sidebar .recent-posts-widget .widget-item p, .sidebar .recent-posts-widget .widget-item .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a, .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .sidebar .recent-posts-widget .widget-item a, .sidebar .recent-posts-widget .widget-item .landing-hero .heading-wrapper .cta-btn, .landing-hero .heading-wrapper .sidebar .recent-posts-widget .widget-item .cta-btn, .sidebar .recent-posts-widget .widget-item .shop-sidebar .filter-widget label, .shop-sidebar .filter-widget .sidebar .recent-posts-widget .widget-item label, .sidebar .recent-posts-widget .widget-item .shop-sidebar-vertical .filter-widget label, .shop-sidebar-vertical .filter-widget .sidebar .recent-posts-widget .widget-item label, .shop-sidebar .tags-widget .tag-list li .sidebar .recent-posts-widget .widget-item a, .shop-sidebar-vertical .tags-widget .tag-list li .sidebar .recent-posts-widget .widget-item a, .sidebar .recent-posts-widget .widget-item .checkout-table tbody tr td:first-child, .checkout-table tbody tr .sidebar .recent-posts-widget .widget-item td:first-child, .sidebar .recent-posts-widget .widget-item .prod-reviews .tp-review .tpr-name, .prod-reviews .tp-review .sidebar .recent-posts-widget .widget-item .tpr-name {
   margin-top: 0;
   margin-bottom: 0;
-  color: #777;
+  color: #000;
 }
 
 .sidebar .recent-posts-widget .widget-item span {
@@ -6706,7 +6706,7 @@ navbar-trans-dark .navbar-nav > li > a:focus{
   margin-bottom: 5px;
   font-size: .9em;
   letter-spacing: .3px;
-  color: #777;
+  color: #000;
   border-bottom: 1px solid rgba(17, 17, 17, 0);
   -webkit-transition: all 0.3s;
           transition: all 0.3s;
@@ -6744,7 +6744,7 @@ navbar-trans-dark .navbar-nav > li > a:focus{
 }
 
 .sidebar .tags-widget .tag-list li a:hover {
-  border-color: #777;
+  border-color: #000;
   color: #111;
 }
 
@@ -6792,7 +6792,7 @@ navbar-trans-dark .navbar-nav > li > a:focus{
 .sidebar .comments-widget .widget-item span .widget-comm-title {
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
   letter-spacing: 1.5px;
-  color: #777;
+  color: #000;
 }
 
 /* ---- 18.6 Comments ---- */
@@ -7084,7 +7084,7 @@ form .input-error-2:focus {
   padding-right: 20px;
   height: 50px;
   font-size: 32px;
-  color: #777;
+  color: #000;
   float: left;
 }
 
@@ -7103,7 +7103,7 @@ form .input-error-2:focus {
   font-size: .8em;
   line-height: 1;
   letter-spacing: 1px;
-  color: #777;
+  color: #000;
 }
 
 .contact-2 form .alert {
@@ -7487,7 +7487,7 @@ form .input-error-2:focus {
 
 .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer {
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
-  color: #777;
+  color: #000;
 }
 
 .comingsoon .content-wrapper .content-inner form h5, .comingsoon .content-wrapper .content-inner form .ft-boxed-hover ul li .hover-content .ft-heading, .ft-boxed-hover ul li .hover-content .comingsoon .content-wrapper .content-inner form .ft-heading, .comingsoon .content-wrapper .content-inner form .ft-tabs .tabs-list li a .tab-group .tab-info, .ft-tabs .tabs-list li a .tab-group .comingsoon .content-wrapper .content-inner form .tab-info, .comingsoon .content-wrapper .content-inner form .sidebar .comments-widget .widget-item span .widget-comm-title, .sidebar .comments-widget .widget-item span .comingsoon .content-wrapper .content-inner form .widget-comm-title, .comingsoon .content-wrapper .content-inner form .cs-timer .item .title-timer, .comingsoon .content-wrapper .content-inner .cs-timer .item form .title-timer, .comingsoon .content-wrapper .content-inner form .shop-layout-options span, .shop-layout-options .comingsoon .content-wrapper .content-inner form span {
@@ -7628,7 +7628,7 @@ form .input-error-2:focus {
   margin-bottom: 75px;
   border-radius: 100px;
   font-size: 50px;
-  color: #777;
+  color: #000;
   background: #ececec;
 }
 
@@ -7684,7 +7684,7 @@ form .input-error-2:focus {
 .line-icons ul li span {
   display: block;
   font-size: 50px;
-  color: #777;
+  color: #000;
   -webkit-transition: color 0.5s;
           transition: color 0.5s;
 }
@@ -8271,7 +8271,7 @@ form .input-error-2:focus {
 }
 
 .agency-hero .hero-wrapper .hero-content .text-wrapper h4, .agency-hero .hero-wrapper .hero-content .text-wrapper .ft-tabs .tabs-list li a .tab-group .tab-heading, .ft-tabs .tabs-list li a .tab-group .agency-hero .hero-wrapper .hero-content .text-wrapper .tab-heading, .agency-hero .hero-wrapper .hero-content .text-wrapper .testimonials-3col .t-item blockquote footer cite, .testimonials-3col .t-item blockquote footer .agency-hero .hero-wrapper .hero-content .text-wrapper cite, .agency-hero .hero-wrapper .hero-content .text-wrapper .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite, .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .agency-hero .hero-wrapper .hero-content .text-wrapper cite, .agency-hero .hero-wrapper .hero-content .text-wrapper .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .agency-hero .hero-wrapper .hero-content .text-wrapper cite, .agency-hero .hero-wrapper .hero-content .text-wrapper .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite, .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .agency-hero .hero-wrapper .hero-content .text-wrapper cite, .agency-hero .hero-wrapper .hero-content .text-wrapper .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .agency-hero .hero-wrapper .hero-content .text-wrapper cite, .agency-hero .hero-wrapper .hero-content .text-wrapper .team-3col .t-item .t-info .t-role, .team-3col .t-item .t-info .agency-hero .hero-wrapper .hero-content .text-wrapper .t-role, .agency-hero .hero-wrapper .hero-content .text-wrapper .team-4col .t-item .t-info .t-role, .team-4col .t-item .t-info .agency-hero .hero-wrapper .hero-content .text-wrapper .t-role, .agency-hero .hero-wrapper .hero-content .text-wrapper .freelancer-about .t-item .t-info .t-role, .freelancer-about .t-item .t-info .agency-hero .hero-wrapper .hero-content .text-wrapper .t-role, .agency-hero .hero-wrapper .hero-content .text-wrapper .t-join .t-info .t-role, .t-join .t-info .agency-hero .hero-wrapper .hero-content .text-wrapper .t-role, .agency-hero .hero-wrapper .hero-content .text-wrapper .login-2 .bg-overlay .form-wrapper .form-content .cards-header, .login-2 .bg-overlay .form-wrapper .form-content .agency-hero .hero-wrapper .hero-content .text-wrapper .cards-header, .agency-hero .hero-wrapper .hero-content .text-wrapper .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead, .login-2 .bg-overlay .form-wrapper .social-signup .social-card .agency-hero .hero-wrapper .hero-content .text-wrapper .sc-lead {
-  color: #777;
+  color: #000;
 }
 
 .agency-hero .hero-wrapper .hero-content .text-wrapper p {
@@ -9543,7 +9543,7 @@ form .input-error-2:focus {
 .shop-sidebar .shop-widget .cart-item .cp-name, .shop-sidebar-vertical .shop-widget .cart-item .cp-name {
   padding-top: 8px;
   letter-spacing: 1px;
-  color: #777;
+  color: #000;
 }
 
 .shop-sidebar .shop-widget .cart-item .cp-name:hover, .shop-sidebar-vertical .shop-widget .cart-item .cp-name:hover {
@@ -9558,7 +9558,7 @@ form .input-error-2:focus {
 
 .shop-sidebar .shop-widget .cart-item .cart-remove-btn, .shop-sidebar-vertical .shop-widget .cart-item .cart-remove-btn {
   float: right;
-  color: #777;
+  color: #000;
 }
 
 .shop-sidebar .shop-widget .cart-item .cart-remove-btn:hover, .shop-sidebar-vertical .shop-widget .cart-item .cart-remove-btn:hover {
@@ -9631,7 +9631,7 @@ form .input-error-2:focus {
   margin-bottom: 5px;
   font-size: .9em;
   letter-spacing: .3px;
-  color: #777;
+  color: #000;
   border-bottom: 1px solid rgba(17, 17, 17, 0);
   -webkit-transition: all 0.3s;
           transition: all 0.3s;
@@ -9703,7 +9703,7 @@ form .input-error-2:focus {
 }
 
 .shop-sidebar .tags-widget .tag-list li a:hover, .shop-sidebar-vertical .tags-widget .tag-list li a:hover {
-  border-color: #777;
+  border-color: #000;
   color: #111;
 }
 
@@ -9944,7 +9944,7 @@ form .input-error-2:focus {
 }
 
 .product-meta li a {
-  color: #777;
+  color: #000;
   text-decoration: underline;
 }
 
@@ -10031,7 +10031,7 @@ form .input-error-2:focus {
   font-size: 12px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #777;
+  color: #000;
 }
 
 .prod-name {
@@ -10066,7 +10066,7 @@ form .input-error-2:focus {
 .prod-rating li:last-child {
   padding-left: 10px;
   font-size: 12px;
-  color: #777;
+  color: #000;
 }
 
 .prod-rating li a {
@@ -10233,5 +10233,5 @@ form .input-error-2:focus {
 /*# sourceMappingURL=main.css.map */
 .href-arrow{
   font-size: 24px;
-  color: #777;
+  color: #000;
 }
