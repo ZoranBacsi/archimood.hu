@@ -587,7 +587,7 @@ hr {
   text-transform: uppercase;
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 300;
-  color: #999;
+  color: #000;
   letter-spacing: 2.5px;
 }
 
@@ -1046,7 +1046,7 @@ hr {
 
 .sec-heading-2 .subheading {
   font-size: 1.3em;
-  color: #999;
+  color: #000;
 }
 
 .sec-heading-top-m h1:first-child,
@@ -1286,7 +1286,7 @@ h6, .progress-group .progress-title,
 .blog-post-nav .next-btn, .sidebar .tags-widget .tag-list li a, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a,
 .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p, .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a, .landing-hero .heading-wrapper .cta-btn, .shop-sidebar .filter-widget label, .shop-sidebar-vertical .filter-widget label, .shop-sidebar .tags-widget .tag-list li a, .shop-sidebar-vertical .tags-widget .tag-list li a, .checkout-table tbody tr td:first-child, .prod-reviews .tp-review .tpr-name {
   font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
-  color: #999;
+  color: #000;
   text-transform: uppercase;
 }
 
@@ -1388,7 +1388,7 @@ blockquote footer:before, .wrapper-404 .content-wrapper .info-wrapper .info-404 
 
 blockquote footer cite, .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite, .bg-maintenance .content-wrapper .content-inner p footer cite {
   text-transform: uppercase;
-  color: #999;
+  color: #000;
   font-style: normal;
   font-size: .85em;
   letter-spacing: 2px;
@@ -1843,12 +1843,12 @@ fieldset[disabled] .form-control:hover {
 }
 
 .faq-contact-links {
-  color: #999;
+  color: #000;
   font-size: .9em;
 }
 
 .faq-contact-links i {
-  color: #999;
+  color: #000;
 }
 
 .faq-contact-links a {
@@ -1935,7 +1935,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .breadcrumb li a {
-  color: #999;
+  color: #000;
 }
 
 .breadcrumb li a:focus {
@@ -1983,7 +1983,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .page-title .breadcrumb .active {
-  color: #999;
+  color: #000;
 }
 
 /* ---- 4.3 Header/Page Title Styles ---- */
@@ -1996,7 +1996,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .pt-dark .breadcrumb li a {
-  color: #999;
+  color: #000;
 }
 
 .pt-dark .breadcrumb li a:hover {
@@ -2152,7 +2152,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .footer-social-links ul li a:hover {
-  color: #999;
+  color: #000;
 }
 
 .footer-social-links ul li a:focus {
@@ -2454,7 +2454,7 @@ fieldset[disabled] .form-control:hover {
   font-size: .9em;
   letter-spacing: 1.7px;
   text-transform: uppercase;
-  color: #999;
+  color: #000;
 }
 
 .footer-contact .contact-info address .show-map {
@@ -2471,7 +2471,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .footer-contact .contact-info address .show-map:hover {
-  color: #999;
+  color: #000;
 }
 
 .footer-contact .contact-info address .show-map:focus {
@@ -2544,7 +2544,7 @@ fieldset[disabled] .form-control:hover {
   font-size: .9em;
   letter-spacing: 1.7px;
   text-transform: uppercase;
-  color: #999;
+  color: #000;
 }
 
 /* --------------------------------------------------
@@ -2577,7 +2577,7 @@ fieldset[disabled] .form-control:hover {
   font-size: 0.8em;
   font-weight: 400;
   letter-spacing: 2px;
-  color: #999;
+  color: #000;
   -webkit-transition: color 0.5s;
           transition: color 0.5s;
 }
@@ -2768,7 +2768,7 @@ fieldset[disabled] .form-control:hover {
 .navbar .navbar-nav .dropdown .cart-dropdown .cart-item .cp-price {
   font-size: 12px;
   letter-spacing: 1px;
-  color: #999;
+  color: #000;
 }
 
 .navbar .navbar-nav .dropdown .cart-dropdown .cart-item .cart-remove-btn {
@@ -3044,7 +3044,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .navbar-trans:not(.navbar-inverse) .navbar-nav .dropdown .dropdown-menu li a:hover {
-  color: #111;
+  color: #ddd;
 }
 
 .navbar-trans:not(.navbar-inverse) .navbar-nav .open .dropdown-toggle {
@@ -3053,19 +3053,27 @@ fieldset[disabled] .form-control:hover {
 
 .navbar-trans-dark .navbar-nav > li > a:focus,
 .navbar-trans-dark .navbar-nav > li > a:hover {
-  color: #111 !important;
+  color: #fff !important;
 }
 
 .navbar-trans-dark .navbar-nav .active > a {
-  color: #111 !important;
+  color: #fff !important;
 }
 
 .navbar-trans-dark .navbar-nav .active > a:hover {
-  color: #111 !important;
+  color: #fff !important;
+}
+
+navbar-trans-dark .navbar-nav > li > a:focus{
+  color: #fff !important;
+}
+
+.navbar-trans-dark .navbar-nav > li > a {
+  color: #ddd !important;
 }
 
 .navbar-trans-dark .navbar-nav .open .dropdown-toggle {
-  color: #111 !important;
+  color: #ddd !important;
 }
 
 .navbar-small {
@@ -3146,7 +3154,7 @@ fieldset[disabled] .form-control:hover {
   padding-top: 50px;
   display: block;
   text-align: right;
-  color: #999;
+  color: #000;
 }
 
 .ft-cards .ft-item a:hover {
@@ -3200,7 +3208,7 @@ fieldset[disabled] .form-control:hover {
 
 .ft-cards-2 .ft-card-item .ft-content p {
   margin: 0;
-  color: #999;
+  color: #000;
 }
 
 .ft-cards-2 .ft-card-item .ft-content .link-btn {
@@ -3593,7 +3601,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .ft-boxed-hover ul li .h-alt {
-  color: #999;
+  color: #000;
 }
 
 .ft-boxed-hover ul li .hover-content {
@@ -3630,14 +3638,14 @@ fieldset[disabled] .form-control:hover {
 
 .ft-boxed-hover ul li .hover-content p {
   margin: 0;
-  color: #999;
+  color: #000;
 }
 
 .ft-boxed-hover ul li .hover-content a {
   display: inline-block;
   position: relative;
   margin-top: 20px;
-  color: #999;
+  color: #000;
   z-index: 10 !important;
 }
 
@@ -3700,7 +3708,7 @@ fieldset[disabled] .form-control:hover {
 .ft-tabs .tabs-list li a .tab-group .tab-info {
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
   letter-spacing: 2px;
-  color: #999;
+  color: #000;
 }
 
 .ft-tabs .tabs-list .active a {
@@ -3833,7 +3841,7 @@ fieldset[disabled] .form-control:hover {
 .ft-layout-50 .ft-item .ft-content-wrapper .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .ft-layout-50 .ft-item .ft-content-wrapper p, .ft-layout-50 .ft-item .ft-content-wrapper .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a, .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .ft-layout-50 .ft-item .ft-content-wrapper a, .ft-layout-50 .ft-item .ft-content-wrapper .landing-hero .heading-wrapper .cta-btn, .landing-hero .heading-wrapper .ft-layout-50 .ft-item .ft-content-wrapper .cta-btn, .ft-layout-50 .ft-item .ft-content-wrapper .shop-sidebar .filter-widget label, .shop-sidebar .filter-widget .ft-layout-50 .ft-item .ft-content-wrapper label, .ft-layout-50 .ft-item .ft-content-wrapper .shop-sidebar-vertical .filter-widget label, .shop-sidebar-vertical .filter-widget .ft-layout-50 .ft-item .ft-content-wrapper label, .ft-layout-50 .ft-item .ft-content-wrapper .shop-sidebar .tags-widget .tag-list li a, .shop-sidebar .tags-widget .tag-list li .ft-layout-50 .ft-item .ft-content-wrapper a, .ft-layout-50 .ft-item .ft-content-wrapper .shop-sidebar-vertical .tags-widget .tag-list li a, .shop-sidebar-vertical .tags-widget .tag-list li .ft-layout-50 .ft-item .ft-content-wrapper a, .ft-layout-50 .ft-item .ft-content-wrapper .checkout-table tbody tr td:first-child, .checkout-table tbody tr .ft-layout-50 .ft-item .ft-content-wrapper td:first-child, .ft-layout-50 .ft-item .ft-content-wrapper .prod-reviews .tp-review .tpr-name, .prod-reviews .tp-review .ft-layout-50 .ft-item .ft-content-wrapper .tpr-name {
   margin-top: 15px;
   margin-bottom: 50px;
-  color: #999;
+  color: #000;
 }
 
 .ft-layout-50 .ft-item .ft-content-wrapper p {
@@ -4073,7 +4081,7 @@ fieldset[disabled] .form-control:hover {
 .ft-big-img-left .ft-content .h-alt {
   margin: 0;
   padding-bottom: 45px;
-  color: #999;
+  color: #000;
 }
 
 .ft-big-img-left .ft-content .btn, .ft-big-img-left .ft-content .btn-ghost, .ft-big-img-left .ft-content .btn-ghost-light, .ft-big-img-left .ft-content .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .ft-big-img-left .ft-content .btn-ghost-light, .ft-big-img-left .ft-content .btn-text, .ft-big-img-left .ft-content .btn-text-light, .ft-big-img-left .ft-content .btn-light, .ft-big-img-left .ft-content .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .ft-big-img-left .ft-content .btn-ghost, .ft-big-img-left .ft-content .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .ft-big-img-left .ft-content .btn-light {
@@ -4155,7 +4163,7 @@ fieldset[disabled] .form-control:hover {
   font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 11px;
   letter-spacing: 2px;
-  color: #999;
+  color: #000;
   text-transform: uppercase;
 }
 
@@ -4182,7 +4190,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .ft-icon-gray {
-  color: #999;
+  color: #000;
 }
 
 .ft-icon-dark {
@@ -4522,7 +4530,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .testimonials-3col .t-item blockquote, .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404, .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p {
-  color: #999;
+  color: #000;
 }
 
 .testimonials-3col .t-item blockquote p, .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 p, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 p, .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p p, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p p {
@@ -4566,7 +4574,7 @@ fieldset[disabled] .form-control:hover {
 
 .testimonials-3col .t-item .t-icon {
   font-size: 32px;
-  color: #999;
+  color: #000;
 }
 
 .testimonials-3col .t-clients {
@@ -4834,7 +4842,7 @@ fieldset[disabled] .form-control:hover {
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 13px;
   letter-spacing: 3.5px;
-  color: #999;
+  color: #000;
 }
 
 .team-3col .t-item .t-info .social-links, .team-4col .t-item .t-info .social-links, .freelancer-about .t-item .t-info .social-links {
@@ -4855,7 +4863,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .team-3col .t-item .t-info .social-links li a:hover, .team-4col .t-item .t-info .social-links li a:hover, .freelancer-about .t-item .t-info .social-links li a:hover {
-  color: #999;
+  color: #000;
 }
 
 /* ---- 14.2 Team - 4 Columns ---- */
@@ -4931,7 +4939,7 @@ fieldset[disabled] .form-control:hover {
 
 .t-join .t-image .t-description p {
   margin: 0;
-  color: #999;
+  color: #000;
 }
 
 .t-join .t-info {
@@ -4949,7 +4957,7 @@ fieldset[disabled] .form-control:hover {
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 12px;
   letter-spacing: 3.5px;
-  color: #999;
+  color: #000;
 }
 
 /* ---- 14.3 Freelancer ---- */
@@ -5346,7 +5354,7 @@ fieldset[disabled] .form-control:hover {
   margin-bottom: 0;
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
   letter-spacing: 2.5px;
-  color: #999;
+  color: #000;
 }
 
 .portfolio-columns-fw .portfolio-item figure figcaption:hover, .portfolio-columns-boxed .portfolio-item figure figcaption:hover {
@@ -5705,7 +5713,7 @@ fieldset[disabled] .form-control:hover {
   margin-bottom: 0;
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
   letter-spacing: 2.5px;
-  color: #999;
+  color: #000;
 }
 
 .portfolio-masonry .p-wrapper .open-btn, .portfolio-masonry-2 .p-wrapper .open-btn, .portfolio-masonry-3 .p-wrapper .open-btn {
@@ -5789,7 +5797,7 @@ fieldset[disabled] .form-control:hover {
 
 .portfolio-1col-fw .portfolio-item figcaption .subheading, .portfolio-1col-boxed .portfolio-item figcaption .subheading {
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
-  color: #999;
+  color: #000;
   margin-bottom: 45px;
 }
 
@@ -5852,7 +5860,7 @@ fieldset[disabled] .form-control:hover {
   padding-left: 2px;
   font-size: .9em;
   text-decoration: underline;
-  color: #999;
+  color: #000;
 }
 
 .pfolio-single .project-info ul li a:hover, .pfolio-single .project-info-2 ul li a:hover {
@@ -6236,7 +6244,7 @@ fieldset[disabled] .form-control:hover {
   vertical-align: bottom;
   font-size: 15px;
   font-weight: 300;
-  color: #999;
+  color: #000;
 }
 
 .pricing-tables .p-table .price .value {
@@ -6355,7 +6363,7 @@ fieldset[disabled] .form-control:hover {
   font-size: 2.6em;
   font-weight: 400;
   text-align: center;
-  color: #999;
+  color: #000;
   -webkit-transition: border-color 0.4s;
           transition: border-color 0.4s;
 }
@@ -6417,7 +6425,7 @@ fieldset[disabled] .form-control:hover {
 .blog-pagination .pagination li a {
   border: none;
   background: none;
-  color: #999;
+  color: #000;
   font-size: 1.2em;
 }
 
@@ -6434,7 +6442,7 @@ fieldset[disabled] .form-control:hover {
 .blog-post-nav .prev-btn,
 .blog-post-nav .next-btn {
   display: inline-block;
-  color: #999;
+  color: #000;
 }
 
 .blog-post-nav .prev-btn:hover,
@@ -6510,7 +6518,7 @@ fieldset[disabled] .form-control:hover {
   letter-spacing: 2px;
   text-transform: uppercase;
   vertical-align: middle;
-  color: #999;
+  color: #000;
   -webkit-transition: color 0.3s;
           transition: color 0.3s;
 }
@@ -6617,7 +6625,7 @@ fieldset[disabled] .form-control:hover {
   letter-spacing: 2px;
   text-transform: uppercase;
   vertical-align: middle;
-  color: #999;
+  color: #000;
   -webkit-transition: color 0.3s;
           transition: color 0.3s;
 }
@@ -6730,7 +6738,7 @@ fieldset[disabled] .form-control:hover {
   margin-bottom: 5px;
   border: 1px solid #ccc;
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
-  color: #999;
+  color: #000;
   -webkit-transition: all 0.5s;
           transition: all 0.5s;
 }
@@ -6829,7 +6837,7 @@ fieldset[disabled] .form-control:hover {
 
 .blog-post-comments .bp-comment .comment-info .comment-name, .blog-post-comments .bp-comment-reply .comment-info .comment-name {
   display: inline-block;
-  color: #999;
+  color: #000;
 }
 
 .blog-post-comments .bp-comment .comment-info .comment-time, .blog-post-comments .bp-comment-reply .comment-info .comment-time {
@@ -6852,7 +6860,7 @@ fieldset[disabled] .form-control:hover {
   font-size: .8em;
   line-height: 1em;
   letter-spacing: 2px;
-  color: #999;
+  color: #000;
   -webkit-transition: all 0.3s;
           transition: all 0.3s;
 }
@@ -6920,7 +6928,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .social-wrapper .social-links li a:hover {
-  color: #999;
+  color: #000;
 }
 
 form .alert-error {
@@ -6980,7 +6988,7 @@ form .input-error-2:focus {
   margin-bottom: 3px;
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 300;
-  color: #999;
+  color: #000;
 }
 
 .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a {
@@ -6995,7 +7003,7 @@ form .input-error-2:focus {
 }
 
 .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a:hover {
-  color: #999;
+  color: #000;
 }
 
 .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a span {
@@ -7127,7 +7135,7 @@ form .input-error-2:focus {
 }
 
 .contact-3 .form-wrapper p {
-  color: #999;
+  color: #000;
 }
 
 .contact-3 .form-wrapper .form-group {
@@ -7146,7 +7154,7 @@ form .input-error-2:focus {
 .contact-3 .form-wrapper .form-minimal input[type="tel"],
 .contact-3 .form-wrapper .form-minimal textarea {
   border: none;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #000;
 }
 
 .contact-3 .form-wrapper .form-minimal input[type="text"]:focus,
@@ -7216,7 +7224,7 @@ form .input-error-2:focus {
 }
 
 .login-1 .panel-group .panel .panel-collapse .panel-body .form-login .forget-pass-link {
-  color: #999;
+  color: #000;
   padding-bottom: 4px;
   border-bottom: 1px solid rgba(17, 17, 17, 0);
   -webkit-transition: all 0.3s;
@@ -7253,7 +7261,7 @@ form .input-error-2:focus {
 
 .login-1 .panel-group .bottom-panel .panel-body {
   padding-bottom: 100px;
-  color: #999 !important;
+  color: #000 !important;
 }
 
 .login-1 .panel-group .panel + .panel {
@@ -7306,7 +7314,7 @@ form .input-error-2:focus {
 }
 
 .login-2 .bg-overlay .form-wrapper .form-content .forget-pass-link {
-  color: #999;
+  color: #000;
   padding-bottom: 4px;
   border-bottom: 1px solid rgba(17, 17, 17, 0);
   -webkit-transition: all 0.3s;
@@ -7324,7 +7332,7 @@ form .input-error-2:focus {
   margin-top: 50px;
   margin-bottom: 30px;
   text-align: center;
-  color: #999;
+  color: #000;
 }
 
 .login-2 .bg-overlay .form-wrapper .social-signup {
@@ -7361,7 +7369,7 @@ form .input-error-2:focus {
 
 .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-info {
   bottom: 35px;
-  color: #999;
+  color: #000;
 }
 
 .login-2 .bg-overlay .form-wrapper .social-signup .social-card i {
@@ -7449,7 +7457,7 @@ form .input-error-2:focus {
 }
 
 .comingsoon .content-wrapper .content-inner header p {
-  color: #999;
+  color: #000;
 }
 
 .comingsoon .content-wrapper .content-inner .cs-timer {
@@ -7517,7 +7525,7 @@ form .input-error-2:focus {
 }
 
 .comingsoon-2 .content-wrapper header p {
-  color: #999;
+  color: #000;
 }
 
 .comingsoon-2 .content-wrapper form h5, .comingsoon-2 .content-wrapper form .ft-boxed-hover ul li .hover-content .ft-heading, .ft-boxed-hover ul li .hover-content .comingsoon-2 .content-wrapper form .ft-heading, .comingsoon-2 .content-wrapper form .ft-tabs .tabs-list li a .tab-group .tab-info, .ft-tabs .tabs-list li a .tab-group .comingsoon-2 .content-wrapper form .tab-info, .comingsoon-2 .content-wrapper form .sidebar .comments-widget .widget-item span .widget-comm-title, .sidebar .comments-widget .widget-item span .comingsoon-2 .content-wrapper form .widget-comm-title, .comingsoon-2 .comingsoon .content-wrapper form .content-inner .cs-timer .item .title-timer, .comingsoon .comingsoon-2 .content-wrapper form .content-inner .cs-timer .item .title-timer, .comingsoon-2 .comingsoon .content-wrapper .content-inner .cs-timer .item form .title-timer, .comingsoon .comingsoon-2 .content-wrapper .content-inner .cs-timer .item form .title-timer, .comingsoon-2 .content-wrapper form .shop-layout-options span, .shop-layout-options .comingsoon-2 .content-wrapper form span {
@@ -7920,7 +7928,8 @@ form .input-error-2:focus {
 }
 
 .fs-slide-1 .hero-content {
-  text-align: center;
+  padding-left: 10%;
+  text-align: left;
 }
 
 .fs-slide-1 .hero-content .hero-lead {
@@ -7932,8 +7941,8 @@ form .input-error-2:focus {
 }
 
 .fs-slide-1 .hero-content .hero-subheading {
-  margin-top: 100px;
-  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 30px;
   color: #999;
 }
 
@@ -7952,8 +7961,9 @@ form .input-error-2:focus {
 }
 
 .fs-slide-2 .hero-content .hero-lead {
-  font-size: 6.5em;
-  font-weight: 700;
+  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 6em;
+  font-weight: 800;
   letter-spacing: 5px;
   color: #ececec;
 }
@@ -7965,7 +7975,7 @@ form .input-error-2:focus {
 .fs-slide-2 .hero-content .hero-subheading {
   margin-top: 50px;
   margin-bottom: 30px;
-  color: #999;
+  color: #000;
 }
 
 .fs-slide-3 {
@@ -7995,8 +8005,8 @@ form .input-error-2:focus {
 }
 
 .fs-slide-3 .hero-content .hero-subheading {
-  margin-top: 100px;
-  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 30px;
   color: #999;
 }
 
@@ -8901,7 +8911,7 @@ form .input-error-2:focus {
   margin-bottom: 0;
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
   letter-spacing: 2.5px;
-  color: #999;
+  color: #000;
 }
 
 .hover-default .p-hover:hover, .hover-light .p-hover:hover {
@@ -9068,7 +9078,7 @@ form .input-error-2:focus {
 .checkout-table tbody tr .hover-light .p-hover .p-content td:last-child:first-child, .hover-light .p-hover .p-content .prod-reviews .tp-review .tpr-name:last-child,
 .prod-reviews .tp-review .hover-light .p-hover .p-content .tpr-name:last-child, .hover-light .p-hover .p-content p:last-child,
 .hover-light .p-hover .p-content span:last-child {
-  color: #999;
+  color: #000;
 }
 
 .hover-light .open-btn {
@@ -9244,7 +9254,7 @@ form .input-error-2:focus {
   margin: 0;
   font-size: .9em;
   line-height: 1.6;
-  color: #999;
+  color: #000;
   opacity: 0;
   -webkit-transition: opacity 0.6s;
           transition: opacity 0.6s;
@@ -9254,7 +9264,7 @@ form .input-error-2:focus {
   display: block;
   padding-top: 5px;
   font-size: 25px;
-  color: #999;
+  color: #000;
   opacity: 0;
   -webkit-transition: opacity 0.6s, color 0.4s;
           transition: opacity 0.6s, color 0.4s;
@@ -9290,7 +9300,7 @@ form .input-error-2:focus {
   display: block;
   font-size: 24px;
   line-height: 0;
-  color: #999;
+  color: #000;
 }
 
 .portfolio-item.hover-side figure figcaption .hover-btns li a:focus {
