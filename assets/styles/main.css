@@ -3026,8 +3026,10 @@ fieldset[disabled] .form-control:hover {
   content: url(../images/logo-light.png);
 }
 
-.navbar-trans .navbar-logo-dark {
+.navbar-logo-dark {
   content: url(../images/logo.png);
+  width: 150px;
+  height: 30px;
 }
 
 .navbar-trans:not(.navbar-inverse) .navbar-nav li a:focus,
@@ -5354,7 +5356,7 @@ navbar-trans-dark .navbar-nav > li > a:focus{
   margin-bottom: 0;
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
   letter-spacing: 2.5px;
-  color: #000;
+  color: #fff;
 }
 
 .portfolio-columns-fw .portfolio-item figure figcaption:hover, .portfolio-columns-boxed .portfolio-item figure figcaption:hover {
@@ -5713,7 +5715,7 @@ navbar-trans-dark .navbar-nav > li > a:focus{
   margin-bottom: 0;
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
   letter-spacing: 2.5px;
-  color: #000;
+  color: #fff;
 }
 
 .portfolio-masonry .p-wrapper .open-btn, .portfolio-masonry-2 .p-wrapper .open-btn, .portfolio-masonry-3 .p-wrapper .open-btn {
@@ -7884,7 +7886,7 @@ form .input-error-2:focus {
 .main-demo-hero .hero-content-wrapper .hero-content .hero-subheading, .fs-video-hero .hero-content-wrapper .hero-content .hero-subheading, .fw-video-hero .hero-content-wrapper .hero-content .hero-subheading, .text-slider-hero .hero-content-wrapper .hero-content .hero-subheading, .freelancer-hero .hero-content-wrapper .hero-content .hero-subheading, .agency2-hero .hero-content-wrapper .hero-content .hero-subheading, .animated-hero .hero-content-wrapper .hero-content .hero-subheading, .web-app-hero .hero-content-wrapper .hero-content .hero-subheading {
   margin-top: 100px;
   margin-bottom: 20px;
-  color: #999;
+  color: #fff;
 }
 
 /* ---- 20.2 Full Screen Slider ---- */
@@ -7943,7 +7945,7 @@ form .input-error-2:focus {
 .fs-slide-1 .hero-content .hero-subheading {
   margin-top: 50px;
   margin-bottom: 30px;
-  color: #999;
+  color: #fff;
 }
 
 .fs-slide-2 {
@@ -7975,7 +7977,7 @@ form .input-error-2:focus {
 .fs-slide-2 .hero-content .hero-subheading {
   margin-top: 50px;
   margin-bottom: 30px;
-  color: #000;
+  color: #fff;
 }
 
 .fs-slide-3 {
@@ -8007,7 +8009,7 @@ form .input-error-2:focus {
 .fs-slide-3 .hero-content .hero-subheading {
   margin-top: 50px;
   margin-bottom: 30px;
-  color: #999;
+  color: #fff;
 }
 
 /* ---- 20.3 Full Width Slider ---- */
@@ -8066,7 +8068,7 @@ form .input-error-2:focus {
 .fw-slider-hero .fw-slide-1 .hero-content-wrapper .hero-content .hero-subheading, .fw-slider-hero .fw-slide-3 .hero-content-wrapper .hero-content .hero-subheading {
   margin-top: 0;
   margin-bottom: 50px;
-  color: #999;
+  color: #fff;
 }
 
 .fw-slider-hero .fw-slide-2 {
@@ -8098,7 +8100,7 @@ form .input-error-2:focus {
 .fw-slider-hero .fw-slide-2 .hero-content-wrapper .hero-content .hero-subheading {
   margin-top: 0;
   margin-bottom: 30px;
-  color: #999;
+  color: #fff;
 }
 
 .fw-slider-hero .fw-slide-3 {
@@ -8133,7 +8135,7 @@ form .input-error-2:focus {
 .fs-video-hero .hero-content-wrapper .hero-content .hero-subheading, .fw-video-hero .hero-content-wrapper .hero-content .hero-subheading {
   margin-top: 100px;
   margin-bottom: 20px;
-  color: #999;
+  color: #fff;
 }
 
 /* ---- 20.5 Full Width Video ---- */
@@ -8162,7 +8164,7 @@ form .input-error-2:focus {
 .fw-video-hero .hero-content-wrapper .hero-content .hero-subheading {
   margin-top: 50px;
   margin-bottom: 30px;
-  color: #999;
+  color: #fff;
 }
 
 /* ---- 20.6 Text Slider ---- */
@@ -8648,6 +8650,7 @@ form .input-error-2:focus {
 .hover-default .p-hover, .hover-light .p-hover {
   display: block;
   position: absolute;
+  cursor: pointer;
   top: 0;
   left: 0;
   width: 100%;
@@ -10234,4 +10237,9 @@ form .input-error-2:focus {
 .href-arrow{
   font-size: 24px;
   color: #000;
+}
+
+.p-content > h4,
+.p-content > h6 {
+    color: #fff !important;
 }
