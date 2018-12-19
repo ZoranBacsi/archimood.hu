@@ -316,8 +316,8 @@ hr {
 }
 
 .section {
-  padding-top: 160px;
-  padding-bottom: 100px;
+  padding-top: 80px;
+  padding-bottom: 50px;
 }
 
 .section-heading h1,
@@ -2075,7 +2075,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .pt-plax-lg-light {
-  background: url(http://placehold.it/2440x1280);
+  background: url(../images/sav.png);
   background-size: cover;
 }
 
@@ -2096,6 +2096,7 @@ fieldset[disabled] .form-control:hover {
   background: #222;
   padding-top: 20px;
   padding-bottom: 20px;
+  color: #CCCCCC;
 }
 
 .copyright small {
@@ -2114,7 +2115,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .copyright .to-the-top {
-  color: #000;
+  color: #ccc;
 }
 
 .copyright .to-the-top i {
@@ -2137,7 +2138,7 @@ fieldset[disabled] .form-control:hover {
   display: inline-block;
   padding-right: 35px;
   margin-right: 35px;
-  border-right: 1px solid #777;
+  border-right: 1px solid #ccc;
 }
 
 .footer-social-links ul li:last-child {
@@ -2152,7 +2153,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .footer-social-links ul li a:hover {
-  color: #000;
+  color: #ccc;
 }
 
 .footer-social-links ul li a:focus {
@@ -2516,7 +2517,7 @@ fieldset[disabled] .form-control:hover {
 
 .footer-litle address ul li {
   display: inline-block;
-  margin-right: 160px;
+  margin-right: 80px;
 }
 
 .footer-litle address ul li:last-child {
@@ -3022,14 +3023,17 @@ fieldset[disabled] .form-control:hover {
           transition: background 0.3s;
 }
 
-.navbar-trans .navbar-logo {
+.navbar-small .navbar-logo-dark {
   content: url(../images/logo-light.png);
 }
 
 .navbar-logo-dark {
-  content: url(../images/logo.png);
   width: 150px;
   height: 30px;
+}
+
+.navbar-trans:not(.navbar-inverse) .navbar-nav li a {
+  color: #999;
 }
 
 .navbar-trans:not(.navbar-inverse) .navbar-nav li a:focus,
@@ -5066,7 +5070,7 @@ navbar-trans-dark .navbar-nav > li > a:focus{
 
 /* ---- 15.1 Full Width - Columns ---- */
 .portfolio-columns-fw, .portfolio-columns-boxed {
-  margin-top: 160px;
+  margin-top: 80px;
 }
 
 .portfolio-columns-fw .portfolio-item, .portfolio-columns-boxed .portfolio-item {
@@ -10248,4 +10252,8 @@ form .input-error-2:focus {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
+}
+
+.btn-ghost{
+  margin-top: 30px;
 }
