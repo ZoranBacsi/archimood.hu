@@ -10243,3 +10243,9 @@ form .input-error-2:focus {
 .p-content > h6 {
     color: #fff !important;
 }
+
+.sticky_content{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
