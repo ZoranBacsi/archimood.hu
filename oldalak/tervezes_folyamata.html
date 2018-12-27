@@ -25,6 +25,7 @@
 
         <!-- Definity CSS -->
         <link rel="stylesheet" href="../assets/styles/main.css" type="text/css">
+        <link rel="stylesheet" href="../assets/styles/sub.css" type="text/css">
         <link rel="stylesheet" href="../assets/styles/responsive.css" type="text/css">
 
         <!-- JS -->
@@ -54,7 +55,7 @@
               <span class="icon-bar"></span>
             </button>
             <!-- Logo -->
-            <a class="navbar-brand" href="../index.html"><img class="navbar-logo-dark" src="../assets/images/logo.png" alt="Definity - Logo"></a>
+            <a class="navbar-brand" href="../index.html"><img class="navbar-logo-dark" src="../assets/images/logo-light.png" alt="Definity - Logo"></a>
           </div>
 
           <!-- Navbar Links -->
@@ -90,25 +91,41 @@
           <div class="row ws-m">
 
             <!-- Project Info -->
-            <div class="col-md-3 mb-sm-50 project-info">
-              <h5>Cavalier Collective Co</h5>
-              <ul>
-                <li><h6>Date:</h6><span>15/07/15</span></li>
-                <li><h6>Link:</h6><a href="#">http://projectdomain.com</a></li>
-                <li><h6>Type:</h6><span>Branding, Identity, Webdesign, Strategy, Logo design</span></li>
-              </ul>
-            </div>
+            <div class="col-md-12 project-info">
+                <h3>A Tervezés folyamata</h3>
+                <div class="timeline-item" date-is='IGÉNYEK ÉS FELMÉRÉS'>
+                    A megkeresést követően, egy személyes találkozó keretében egyeztetésre kerülnek a részletek, pontosításra az igények, elképzelések, stílusok.
+                    <br><br>
+                    A megbeszélés alapján a tervezendő területről készül egy részletes felmérés és a tér adottságai, méretei alapján elkészül a felmérési terv.
+                </div>
+                <div class="timeline-item" date-is='KONCEPCIÓ ÉS LÁTVÁNYTERVEZÉS'>
+                    Az árajánlat elfogadása után koncepció terv készül, ami a kívánt stílusnak megfelelően kerül kialakításra.
+                    <br><br>
+                    Ennek a tervszakasznak részei:
+                    <ul>
+                        <li class="tools">hangulati tablók (stílus és hangulat meghatározása)</li>
+                        <li class="tools">konszignált berendezési javaslat (alaprajzi elrendezések)</li>
+                        <li class="tools">látványterv (színes 3d látványtervek)</li>
+                    </ul>
+                </div>
+                <div class="timeline-item" date-is='KIVITELI TERV KÉSZÍTÉS'>
+                    Az elfogadott koncepcióterv után a kiviteli tervszakaszban elkészülnek a szakági tervek, minden olyan információt és műszaki rajzot tartalmazva, ami a megvalósításhoz elengedhetetlen.
+                    <br><br>
+                    A kiviteli terv készítés részletei:
+                    <ul>
+                        <li class="tools">Méretezett, konszignált alaprajzok és falnézetek a megértéshez szükséges számban</li>
+                        <li class="tools">Berendezési alaprajz</li>
+                        <li class="tools">Festési tervek (színek esetleges tapéta és anyag meghatározások)</li>
+                        <li class="tools">Burkolati terv anyagok és mennyiségek meghatározásával</li>
+                        <li class="tools">Világítási terv (a belsőépítészeti koncepcióhoz illeszkedő kiállások, kapcsolási körök jelölésével)</li>
+                        <li class="tools">Méretezett egyedi bútortervek, anyagok meghatározásával (konyha, beépített bútorok)</li>
+                        <li class="tools">Bútorkonszignáció (vásárolandó bútorok listája, mennyiség márka és tulajdonságok meghatározásával.</li>
+                    </ul>
 
-            <!-- Challenge -->
-            <div class="col-md-offset-1 col-md-4 mb-sm-50">
-              <h5 class="h-alt">The challenge</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</p>
-            </div>
-
-            <!-- Solution -->
-            <div class="col-md-4">
-              <h5 class="h-alt">The solution</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="timeline-item" date-is='MŰVEZETÉS'>
+                    A kiviteli tervek leadását követően a kivitelezés alatt művezetésre, helyszíni szakági egyeztetése van lehetőség.
+                </div>
             </div>
 
           </div><!-- / .row -->
@@ -117,8 +134,10 @@
           <div class="row">
             <div class="col-md-12">
               <ul class="single-img-slider">
-                <li><img src="http://placehold.it/1140x470" alt="Project Image"></li>
-                <li><img src="http://placehold.it/1140x470/ccc/999" alt="Project Image"></li>
+                <li><img src="../assets/images/planning/koncepcioterv.png" alt="Project Image"></li>
+                <li><img src="../assets/images/planning/latvanyterv.png" alt="Project Image"></li>
+                <li><img src="../assets/images/planning/butorterv.png" alt="Project Image"></li>
+                <li><img src="../assets/images/planning/kiviteliterv.png" alt="Project Image"></li>
               </ul>
             </div>
           </div><!-- / .row -->
@@ -134,20 +153,73 @@
                     <ul>
                         <!-- Email -->
                         <li>
-                            <span class="linea-basic-paperplane adr-icon"></span>
-                            <div class="adr-group">
-                                <span class="adr-heading">E-mail cím</span>
-                                <span class="adr-info">pogatsajozsef@gmail.com</span>
-                            </div>
+                            <a href="mailto:pogatsajozsef@gmail.com">
+                                <span class="adr-icon">
+                                    <svg width="50px" height="50px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M27.9995348,35 C23.5815137,35 20,38.5797863 20,43.0000511 L20,106.999949 C20,111.418255 23.5818,115 27.9995348,115 L122.000465,115 C126.418486,115 130,111.421053 130,107.003003 L130,77.7167969 M130,54.824707 L130,42.9914236 C130,38.5778822 126.4182,35 122.000465,35 L27.9995348,35 M42.3012695,61.8647461 L77.3095703,82.9389648 L129.507324,55.1352539" id="message" stroke="#111111" stroke-width="4"></path>
+                                        </g>
+                                    </svg>
+                                </span>
+                                <div class="adr-group">
+                                    <span class="adr-heading">E-mail cím</span>
+                                    <span class="adr-info">pogatsajozsef@gmail.com</span>
+                                </div>
+                            </a>
                         </li>
 
                         <!-- Phone -->
                         <li>
-                            <span class="linea-basic-smartphone adr-icon"></span>
-                            <div class="adr-group">
-                                <span class="adr-heading">Telefonszám</span>
-                                <span class="adr-info">+36 70 338 79 66</span>
-                            </div>
+                            <a href="tel:+36703387966">
+                                <span class="adr-icon">
+                                    <svg width="50px" height="50px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <rect id="Rectangle" stroke="#000000" stroke-width="4" x="48" y="27" width="54" height="97" rx="5"></rect>
+                                            <path d="M48.5,106.5 L101.5,106.5" id="Line" stroke="#000000" stroke-width="4" stroke-linecap="square"></path>
+                                            <path d="M48.5,36.5 L101.5,36.5" id="Line-Copy" stroke="#000000" stroke-width="4" stroke-linecap="square"></path>
+                                            <rect id="Rectangle-2" fill="#000000" x="67" y="114" width="17" height="5" rx="2.5"></rect>
+                                        </g>
+                                    </svg>
+                                </span>
+                                <div class="adr-group">
+                                    <span class="adr-heading">Telefonszám</span>
+                                    <span class="adr-info">+36 70 338 79 66</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <!-- Phone -->
+                        <li>
+                            <a href="https://www.facebook.com/archimooddesign">
+                                <span class="adr-icon">
+                                    <svg width="50px" height="50px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M55.9794458,124.622941 L31.9793085,124.534643 C28.6657158,124.5218 25.9879583,121.656151 26.0000407,118.133892 L26.3005899,31.3558433 C26.311162,27.8335838 29.007043,24.9872 32.322146,25.0000433 L118.992077,25.319519 C122.30718,25.3307568 124.983427,28.1964055 124.972855,31.7202703 L124.672306,118.496714 C124.660224,122.020578 121.964343,124.865357 118.65075,124.854119 L77.9814595,124.703211 M100.744663,55.1714973 C100.744663,55.1714973 78.115876,43.0410541 78.0494229,63.5934541 C77.9829698,84.1458541 77.8500636,124.541065 77.8500636,124.541065 M100.663107,79.2670271 L61.9979812,79.1257514" id="Facebook" stroke="#111111" stroke-width="4"></path>
+                                        </g>
+                                    </svg>
+                                </span>
+                                <div class="adr-group">
+                                    <span class="adr-heading">Facebook</span>
+                                    <span class="adr-info">archimooddesign</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <!-- Phone -->
+                        <li>
+                            <a href="https://www.instagram.com/archimooddesign">
+                                <span class="adr-icon">
+                                    <svg width="50px" height="50px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M26.1225891,78.470459 L26.0000057,32.1444673 C25.9954655,28.8240366 28.6832891,26.1286459 32.0037198,26.1241057 L118.854019,26.0000057 C122.175963,25.9954655 124.871354,28.6832891 124.875894,32.0052332 L124.999994,118.855533 C125.004535,122.175963 122.315198,124.871354 118.994767,124.877408 L32.1444673,124.999994 C28.8240366,125.004534 26.1271325,122.316711 26.1225923,118.99628 L26.1225891,95.2929688 M98.3733322,67.0240864 C104.691651,79.3081697 99.8380056,94.4403587 87.5537469,100.758588 C75.2710203,107.076817 60.1370832,102.224772 53.818764,89.9406888 C47.501977,77.6566055 52.3540906,62.5228845 64.6383493,56.2046556 C76.9226081,49.8864266 92.0550131,54.7415351 98.3733322,67.0240864 L98.3733322,67.0240864 M114.26506,49.3886844 C114.26506,51.0640051 112.893779,52.4337349 111.218458,52.4337349 L101.805638,52.4337349 C100.130317,52.4337349 98.7590361,51.0640051 98.7590361,49.3886844 L98.7590361,39.9743126 C98.7590361,38.2989919 100.130317,36.9277108 101.805638,36.9277108 L111.218458,36.9277108 C112.893779,36.9277108 114.26506,38.2989919 114.26506,39.9743126 L114.26506,49.3886844 M26.2052002,78.4819277 L51.0481928,78.4819277 L26.2052002,78.4819277 Z M124.924316,78.4819277 L101.144578,78.4819277 L123.807229,78.4819277 M83.9583333,92.094716 C76.2325736,96.1273125 66.7157704,93.03036 62.743015,85.1910624 C60.7566372,81.2721423 60.5253959,76.8985167 61.7577257,73" id="Instagram" stroke="#111111" stroke-width="4"></path>
+                                        </g>
+                                    </svg>
+                                </span>
+                                <div class="adr-group">
+                                    <span class="adr-heading">Instagram</span>
+                                    <span class="adr-info">archimooddesign</span>
+                                </div>
+                            </a>
                         </li>
                     </ul>
                 </address>
@@ -158,11 +230,11 @@
                         <div class="row">
 
                             <div class="col-sm-6">
-                                <small>&copy; 2018 Archimood. Made by <a class="no-style-link" href="http://z-poc.hu" target="_blank">Z-Poc</a></small>
+                                <small>&copy; 2018 Archimood. Készítette: <a class="no-style-link" href="http://z-poc.hu" target="_blank">Z-Poc</a></small>
                             </div>
 
                             <div class="col-sm-6">
-                                <small><a href="#page-top" class="pull-right to-the-top">To The Top<i class="fa fa-angle-up"></i></a></small>
+                                <small><a href="#page-top" class="pull-right to-the-top">Oldal tetejére<i class="fa fa-angle-up"></i></a></small>
                             </div>
 
                         </div><!-- / .row -->
@@ -170,8 +242,6 @@
                 </div><!-- / .copyright -->
             </footer><!-- / .footer-litle -->
         </div>
-    
-
 
         <!-- ========== Scripts ========== -->
 
@@ -192,6 +262,12 @@
         <script src="../assets/js/vendor/isotope.min.js"></script>
         <script src="../assets/js/vendor/jquery.magnific-popup.min.js"></script>
         <script src="../assets/js/vendor/wow.min.js"></script>
+        <script src="../assets/js/vendor/jquery.mb.YTPlayer.min.js"></script>
+        <script src="../assets/js/vendor/jquery.ajaxchimp.js"></script>
+
+        <!-- Google Maps -->
+        <script src="../assets/js/gmap.js"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOcd7o0W0r846FC_GoHSK56xeAvP8fV4s"></script>
 
         <!-- Definity JS -->
         <script src="../assets/js/main.js"></script>
