@@ -105,3 +105,29 @@ navbar-trans-dark .navbar-nav > li > a:focus{
     content: "\e65b";
     margin-right: 10px;
 }
+
+/* Fonts */
+
+@font-face {
+    font-family: BauerBodoniStd;
+    src: url("../fonts/BauerBodoniStd-Roman.otf") format("opentype");
+}
+
+@font-face {
+    font-family: BauerBodoniStd;
+    font-weight: bold;
+    src: url("../fonts/BauerBodoniStd-Roman.otf") format("opentype");
+}
+
+@font-face {
+    font-family: BauerBodoniStd;
+    font-style: italic;
+    src: url("../fonts/BauerBodoniStd-Italic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: BauerBodoniStd;
+    font-weight: bold;
+    font-style: italic;
+    src: url("../fonts/BauerBodoniStd-BoldItalic.otf") format("opentype");
+}

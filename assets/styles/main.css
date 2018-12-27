@@ -7939,11 +7939,12 @@ form .input-error-2:focus {
 }
 
 .fs-slide-1 .hero-content .hero-lead {
-  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "BauerBodoniStd";
   font-size: 6em;
-  font-weight: 800;
+  font-weight: normal;
   letter-spacing: 5px;
   color: #ececec;
+  text-transform: none;
 }
 
 .fs-slide-1 .hero-content .hero-subheading {
@@ -7967,11 +7968,12 @@ form .input-error-2:focus {
 }
 
 .fs-slide-2 .hero-content .hero-lead {
-  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "BauerBodoniStd";
   font-size: 6em;
-  font-weight: 800;
+  font-weight: normal;
   letter-spacing: 5px;
   color: #ececec;
+  text-transform: none;
 }
 
 .fs-slide-2 .hero-content .hero-lead span {
