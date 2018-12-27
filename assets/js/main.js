@@ -618,20 +618,16 @@
 			$('.g1').magnificPopup({
                 items: [
                     {
-                        src: 'assets/images/portfolio/01/a.png',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/01/a.png'
                     },
                     {
-                        src: 'assets/images/portfolio/01/b.png',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/01/b.png'
                     },
                     {
-                        src: 'assets/images/portfolio/01/c.png',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/01/c.png'
                     },
                     {
-                        src: 'assets/images/portfolio/01/d.png',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/01/d.png'
                     }
                 ],
                 gallery: {
@@ -643,24 +639,19 @@
             $('.g2').magnificPopup({
                 items: [
                     {
-                        src: 'assets/images/portfolio/02/a.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/02/a.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/02/b.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/02/b.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/02/c.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/02/c.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/02/d.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/02/d.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/02/e.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/02/e.jpg'
                     }
                 ],
                 gallery: {
@@ -672,20 +663,16 @@
             $('.g3').magnificPopup({
                 items: [
                     {
-                        src: 'assets/images/portfolio/03/a.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/03/a.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/03/b.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/03/b.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/03/c.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/03/c.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/03/d.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/03/d.jpg'
                     }
                 ],
                 gallery: {
@@ -697,16 +684,13 @@
             $('.g4').magnificPopup({
                 items: [
                     {
-                        src: 'assets/images/portfolio/04/a.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/04/a.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/04/b.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/04/b.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/04/c.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/04/c.jpg'
                     }
                 ],
                 gallery: {
@@ -718,52 +702,40 @@
             $('.g5').magnificPopup({
                 items: [
                     {
-                        src: 'assets/images/portfolio/05/a.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/05/a.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/05/b.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/05/b.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/05/c.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/05/c.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/05/d.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/05/d.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/05/e.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/05/e.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/05/f.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/05/f.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/05/g.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/05/g.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/05/h.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/05/h.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/05/i.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/05/i.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/05/j.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/05/j.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/05/k.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/05/k.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/05/l.png',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/05/l.png'
                     }
                 ],
                 gallery: {
@@ -775,32 +747,25 @@
             $('.g6').magnificPopup({
                 items: [
                     {
-                        src: 'assets/images/portfolio/06/a.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/06/a.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/06/b.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/06/b.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/06/c.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/06/c.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/06/d.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/06/d.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/06/e.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/06/e.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/06/f.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/06/f.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/06/g.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/06/g.jpg'
                     }
                 ],
                 gallery: {
@@ -821,28 +786,22 @@
             $('.g8').magnificPopup({
                 items: [
                     {
-                        src: 'assets/images/portfolio/08/a.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/08/a.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/08/b.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/08/b.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/08/c.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/08/c.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/08/d.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/08/d.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/08/e.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/08/e.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/08/f.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/08/f.jpg'
                     }
                 ],
                 gallery: {
@@ -854,44 +813,34 @@
             $('.g9').magnificPopup({
                 items: [
                     {
-                        src: 'assets/images/portfolio/09/a.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/09/a.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/09/b.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/09/b.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/09/c.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/09/c.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/09/d.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/09/d.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/09/e.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/09/e.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/09/f.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/09/f.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/09/g.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/09/g.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/09/h.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/09/h.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/09/i.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/09/i.jpg'
                     },
                     {
-                        src: 'assets/images/portfolio/09/j.jpg',
-                        title: 'Title'
+                        src: 'assets/images/portfolio/09/j.jpg'
                     }
                 ],
                 gallery: {

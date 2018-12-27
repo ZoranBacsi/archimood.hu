@@ -299,6 +299,10 @@ hr {
   padding-bottom: 160px;
 }
 
+.mb-15 {
+  margin-bottom: 15px;
+}
+
 .mb-30 {
   margin-bottom: 30px;
 }
@@ -1243,12 +1247,12 @@ mark {
 
 ::-moz-selection {
   color: #fff;
-  background: #17DA5B;
+  background: #000;
 }
 
 ::selection {
   color: #fff;
-  background: #17DA5B;
+  background: #000;
 }
 
 /* ---- 1.1 Text ---- */
@@ -2086,7 +2090,7 @@ fieldset[disabled] .form-control:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(244, 244, 244, 0.3);
+  background: rgba(244, 244, 244, 0.6);
 }
 
 /* --------------------------------------------------
@@ -3033,7 +3037,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .navbar-trans:not(.navbar-inverse) .navbar-nav li a {
-  color: #999;
+  color: #ccc;
 }
 
 .navbar-trans:not(.navbar-inverse) .navbar-nav li a:focus,
@@ -3050,7 +3054,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .navbar-trans:not(.navbar-inverse) .navbar-nav .dropdown .dropdown-menu li a:hover {
-  color: #ddd;
+  color: #ccc;
 }
 
 .navbar-trans:not(.navbar-inverse) .navbar-nav .open .dropdown-toggle {
@@ -7738,7 +7742,7 @@ form .input-error-2:focus {
   margin: 0 auto;
   font-size: 40px;
   text-align: center;
-  color: #111;
+  color: #ececec;
 }
 
 .scroller:focus {
@@ -7763,7 +7767,7 @@ form .input-error-2:focus {
   font-size: 10px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #444;
+  color: #ececec;
   -webkit-transform: translateY(5px);
       -ms-transform: translateY(5px);
           transform: translateY(5px);
@@ -7930,7 +7934,7 @@ form .input-error-2:focus {
 }
 
 .fs-slide-1 .bg-overlay {
-  background: rgba(17, 17, 17, 0.2);
+  background: rgba(17, 17, 17, 0.4);
 }
 
 .fs-slide-1 .hero-content {
@@ -7939,17 +7943,18 @@ form .input-error-2:focus {
 }
 
 .fs-slide-1 .hero-content .hero-lead {
-  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "BauerBodoniStd";
   font-size: 6em;
-  font-weight: 800;
+  font-weight: normal;
   letter-spacing: 5px;
-  color: #111;
+  color: #ececec;
+  text-transform: none;
 }
 
 .fs-slide-1 .hero-content .hero-subheading {
   margin-top: 50px;
   margin-bottom: 30px;
-  color: #111;
+  color: #ececec;
 }
 
 .fs-slide-2 {
@@ -7958,7 +7963,7 @@ form .input-error-2:focus {
 }
 
 .fs-slide-2 .bg-overlay {
-  background: rgba(17, 17, 17, 0.2);
+  background: rgba(17, 17, 17, 0.4);
 }
 
 .fs-slide-2 .hero-content {
@@ -7967,11 +7972,12 @@ form .input-error-2:focus {
 }
 
 .fs-slide-2 .hero-content .hero-lead {
-  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "BauerBodoniStd";
   font-size: 6em;
-  font-weight: 800;
+  font-weight: normal;
   letter-spacing: 5px;
-  color: #111;
+  color: #ececec;
+  text-transform: none;
 }
 
 .fs-slide-2 .hero-content .hero-lead span {
@@ -7981,7 +7987,7 @@ form .input-error-2:focus {
 .fs-slide-2 .hero-content .hero-subheading {
   margin-top: 50px;
   margin-bottom: 30px;
-  color: #111;
+  color: #ececec;
 }
 
 .fs-slide-3 {
@@ -7990,7 +7996,7 @@ form .input-error-2:focus {
 }
 
 .fs-slide-3 .bg-overlay {
-  background: rgba(17, 17, 17, 0.2);
+  background: rgba(17, 17, 17, 0.4);
 }
 
 .fs-slide-3 .hero-content {
@@ -8003,7 +8009,7 @@ form .input-error-2:focus {
   font-size: 4em;
   font-weight: 800;
   letter-spacing: 15px;
-  color: #111;
+  color: #ececec;
 }
 
 .fs-slide-3 .hero-content .hero-lead span {
@@ -8013,7 +8019,7 @@ form .input-error-2:focus {
 .fs-slide-3 .hero-content .hero-subheading {
   margin-top: 50px;
   margin-bottom: 30px;
-  color: #111;
+  color: #ececec;
 }
 
 /* ---- 20.3 Full Width Slider ---- */
