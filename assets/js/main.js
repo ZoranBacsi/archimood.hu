@@ -63,11 +63,9 @@
 			if ($(window).scrollTop() > 20) {
 				$('nav').removeClass('navbar-trans', 300);
 				$('nav').removeClass('navbar-trans-dark');
-				$('nav').addClass('navbar-small', 300);
 			}
 			else {
 				$('nav:not(.mobile-nav)').addClass('navbar-trans', 300);
-				$('nav').removeClass('navbar-small', 300);
 
 				if ($('nav').hasClass('trans-helper')) {
 					$('nav:not(.mobile-nav)').addClass('navbar-trans-dark');
@@ -82,8 +80,9 @@
 		// Nav on mobile screens
 		$(window).resize(function() {
 	        if ($(window).width() <= 1259) {
-				$('nav').addClass('mobile-nav');		        
-		    } else {
+                $('nav').addClass('mobile-nav');
+                $('nav').addClass('navbar-small');
+            } else {
 		    	$('nav').removeClass('mobile-nav');
 		    }
 
